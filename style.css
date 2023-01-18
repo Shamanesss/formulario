@@ -2,15 +2,36 @@ body{
     background-color: black;
 }
 .contenedor{
-    background-color: rgb(204, 200, 177);
+    background-color: rgb(222, 219, 202);
     border: 2px solid black;
     margin: 3rem auto;
     width: 25rem;
     font-size: large;
     text-align: center;
     padding-bottom: 3rem;
-    border-radius: 10%;
+    border-radius: 15%;
 }
-#rango{
+.texto{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+    font-weight: 900;
+    display:flex;
+    justify-items: baseline;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 0 4rem;
+ 
+    
+  
+    
+}
+#start{
+    margin-top: 0.8rem;
+    padding: 0.5rem 3rem;
+    border-radius: 12%;
+    background-color: rgb(144, 135, 93);
     color: aliceblue;
 }

@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="contenedor" class="contenedor">
+    <div id="contenedor" class="contenedor">
         <h3>Rango entre dos numeros</h3>
         <hr>
-        <label for="numero1" id="numero1">Introduce un numero</label><br>
-        <input type="text" name="numero1" id="numero1" value="56"><br>
-        <label for="numero2" id="numero2">Introduce un numero</label><br>
-        <input type="text" name="numero2" id="numero2" value="13"><br>
-        <button id="start" onmouseover="rangoNumeros()">Start</button>
-    </form>
+        <label for="numero1" >Introduce el primer numero</label><br>
+        <input type="text" name="numero1" id="numero1" value=""><br><br>
+        <label for="numero2">Introduce el segundo numero</label><br>
+        <input type="text" name="numero2" id="numero2" value=""><br><br>
+        <button id="start" onclick="rangoNumeros()">Start</button>
+    </div>
     <div class="contenedor">
-        <p id="rango"></p>
+        <p class="texto">Rango entre dos numeros:</p>
+        <p id="rango" class="rango"></p>
     </div>
     <script src="custom.js"></script>
 </body>
