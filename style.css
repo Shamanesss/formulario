@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.contenedor{
+    background-color: rgb(204, 200, 177);
+    border: 2px solid black;
+    margin: 3rem auto;
+    width: 25rem;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 3rem;
+    border-radius: 10%;
+}
+#rango{
+    color: aliceblue;
+}
