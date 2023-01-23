@@ -2,6 +2,10 @@ const num1 = document.querySelector('#numero1');
 const num2 = document.querySelector('#numero2');
 const rango = document.querySelector('#rango');
 
+const boton = document.querySelector('#boton');
+
+//imprime un rango entre dos numeros introducidos
+
 function rangoNumeros(){
         
     let valor1 = parseInt(num1.value);
@@ -24,3 +28,14 @@ function rangoNumeros(){
 
 }
 
+function check() {
+    let clicau =document.getElementById('clicau');
+    
+    if(clicau.checked){
+        document.getElementById('boton').disabled= false;
+    }
+    else{
+        document.getElementById('boton').disabled = true;
+    }
+
+}
