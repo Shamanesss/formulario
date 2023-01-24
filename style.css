@@ -1,6 +1,12 @@
 body{
     background-color: black;
 }
+#principal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
 .contenedor{
     background-color: rgb(222, 219, 202);
     border: 2px solid black;
@@ -34,7 +40,4 @@ ul{
     border-radius: 12%;
     background-color: rgb(144, 135, 93);
     color: aliceblue;
-}
-#labelp{
-    margin-top: -2rem;
 }

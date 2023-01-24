@@ -15,11 +15,24 @@
         <input type="text" name="numero1" id="numero1" value=""><br><br>
         <label for="numero2">Introduce el segundo numero</label><br>
         <input type="text" name="numero2" id="numero2" value=""><br><br>
-        <button id="start" onclick="rangoNumeros()">Start</button>
+        
     </div>
+    <div id="principal">
     <div class="contenedor">
+        <button id="start" onclick="rangoNumeros()">Start</button>
         <p class="texto">Rango entre dos numeros:</p>
         <p id="rango" class="rango"></p>
+        
+    </div>
+    <div class="contenedor">
+        <p class="texto">Rango entre dos numeros y van de 3 en 3</p>
+        <button id="start" onclick="detresentres()">Start</button>
+        <p id="tres" class=""></p>
+    </div>
+    <div class="contenedor">
+        <p class="texto">Rango entre dos numeros impares</p>
+        <button id="start" onclick="impares()">Start</button>
+        <p id="impar" class=""></p>
     </div>
     <div class="contenedor">
         <label for="cuadrao" class="texto"> 
@@ -28,7 +41,7 @@
         </label><br>
         <button id="boton" disabled>Aceptar</button>
     </div>
-    
+</div>    
     <script src="custom.js"></script>
 </body>
 </html>
