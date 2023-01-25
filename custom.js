@@ -97,6 +97,7 @@ function check1() {
     }
 
 }
+// cliquear el checbox y que se active el boton de aceptar mendiante Switch
 function check2(){
     let clicau2 =document.querySelector('#clicau2');
     let pulsado =clicau2.checked;
