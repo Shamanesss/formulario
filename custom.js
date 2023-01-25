@@ -2,11 +2,13 @@ const num1 = document.querySelector('#numero1');
 const num2 = document.querySelector('#numero2');
 const rango = document.querySelector('#rango');
 
-const boton = document.querySelector('#boton');
+
 const tres = document.querySelector('#tres');
 const impar = document.querySelector('#impar');
 
+
 //imprime un rango entre dos numeros introducidos
+
 
 function rangoNumeros(){
         
@@ -74,13 +76,38 @@ function impares(){
 
 
 function check() {
-    let clicau =document.getElementById('clicau');
+    let clicau =document.querySelector('#clicau');
     
     if(clicau.checked){
-        document.getElementById('boton').disabled= false;
+        document.querySelector('#boton').disabled= false;
     }
     else{
-        document.getElementById('boton').disabled = true;
+        document.querySelector('#boton').disabled = true;
     }
 
 }
+function check1() {
+    let clicau1 =document.querySelector('#clicau1');
+    
+    if(clicau1.checked){
+        document.querySelector('#boton1').disabled= false;
+    }
+    else{
+        document.querySelector('#boton1').disabled = true;
+    }
+
+}
+function check2(){
+    let clicau2 =document.querySelector('#clicau2');
+    let pulsado =clicau2.checked;
+    switch (pulsado){
+        case true:
+            boton2.disabled=false;
+            break;
+        case false:
+            boton2.disabled= true;
+            break;
+    }
+}
+
+
